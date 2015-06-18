@@ -17,7 +17,7 @@ Repo contains gulp cofiguration file, so after running gulp command you'll get d
   
   /ts-framework/dist/wp-content/plugins/tmsrvd-shortcodes
   
-You can easy now add your WordPress instalation to dist folder. 
+Now, you can easy add your WordPress installation to dist folder. 
 
 P.S. Do not forget to submit bugs to github issues, so we can react fast. Thanks for this!
 
