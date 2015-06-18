@@ -1,0 +1,95 @@
+/**
+ * TmsrvdShortcodes Admin
+ * Author: ThemeServed
+ * Author URI: http://www.themeserved.com
+ */
+.tmsrvd-shortcode-wrap .table {
+  width: 100%;
+}
+.table .table-row {
+  display: table;
+  width: 100%;
+}
+.table .table-row > div {
+  display: table-cell;
+  padding: 8px 0;
+  vertical-align: top;
+}
+.tmsrvd-shortcode-wrap .acc {
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.tmsrvd-shortcode-wrap .acc .toggle {
+  padding: 15px 15px;
+  font-weight: 800;
+  font-size: 110%;
+  cursor: pointer;
+}
+.tmsrvd-shortcode-wrap .acc .toggle:after {
+  content: "\f347";
+  font-family: dashicons;
+  text-decoration: inherit;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: top;
+  text-align: center;
+  -webkit-transition: color 0.1s ease-in 0;
+  transition: color 0.1s ease-in 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+}
+.tmsrvd-shortcode-wrap .acc .content {
+  display: none;
+  padding: 10px 15px;
+}
+.tmsrvd-shortcode-wrap .tmsrvd-sortable .table {
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: move;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.tmsrvd-shortcode-wrap .tmsrvd-sortable .tmsrvd-sortable-placeholder {
+  background: #f7f7f7;
+  border: dashed 2px #e0e0e0;
+  border-radius: 3px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.tmsrvd-shortcode-wrap .label {
+  padding-top: 13px;
+  width: 30%;
+}
+#insert-button-shortcode label {
+  display: inline-block;
+  width: 20%;
+}
+.tmsrvd-shortcode-select {
+  margin: 10px 0 30px 0;
+}
+.tmsrvd-shortcode-wrap input[type="text"],
+.tmsrvd-shortcode-wrap textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+.tmsrvd-form-desc {
+  color: #aaa;
+  display: block;
+  font-size: 12px;
+  font-style: italic;
+  padding-top: 3px;
+}
+.tmsrvd-notes {
+  font-style: italic;
+}
+.tmsrvd-shortcode-wrap .tmsrvd-cancel-shortcode-insert {
+  margin-left: 1.25em;
+}

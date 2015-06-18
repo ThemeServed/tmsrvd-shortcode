@@ -14,10 +14,15 @@ The plugin is tested to work with WordPress 4.0 and higher.
 
 ## Usage
 Repo contains gulp cofiguration file, so after running gulp command you'll get distribution folder on this path:
-  
-  /ts-framework/dist/wp-content/plugins/tmsrvd-shortcodes
+
+    ts-framework/dist/wp-content/plugins/tmsrvd-shortcodes
   
 Now, you can easy add your WordPress installation to dist folder. 
+
+Or, just copy plugin from:
+
+    dist/tmsrvd-shortcodes
+
 
 P.S. Do not forget to submit bugs to github issues, so we can react fast. Thanks for this!
 

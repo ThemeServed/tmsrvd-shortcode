@@ -12,6 +12,7 @@ var gulp = require('gulp'),
     fs = require('fs'),
     pkg = JSON.parse(fs.readFileSync('./package.json', 'utf8')),
     dest = '../ts-framework/dist/wp-content/plugins/' + (pkg.name).toLowerCase(),
+    dist = 'dist/' + (pkg.name).toLowerCase(),
     src = './src',
     src_js = src + '/assets/js/*.*',
     src_php = src + '/php/**/*.*',
@@ -30,7 +31,8 @@ gulp.task('styles', function() {
           paths: [ '.' ]
         }))
         .on('error', errorLog)
-        .pipe(gulp.dest(dest + '/assets/css'));
+        .pipe(gulp.dest(dest + '/assets/css'))
+        .pipe(gulp.dest(dist + '/assets/css'));
 });
 // Styles
 gulp.task('styles_external', function() {
@@ -40,7 +42,8 @@ gulp.task('styles_external', function() {
         }))
         .pipe(minifyCss())
         .on('error', errorLog)
-        .pipe(gulp.dest(dest + '/assets/css'));
+        .pipe(gulp.dest(dest + '/assets/css'))
+        .pipe(gulp.dest(dist + '/assets/css'));
 });
 //
 // Scripts
@@ -63,14 +66,16 @@ gulp.task('scripts_external', function() {
         }))
         .pipe(concat('bootstrap.js'))
         .on('error', errorLog)
-        .pipe(gulp.dest(dest + '/assets/js/'));
+        .pipe(gulp.dest(dest + '/assets/js/'))
+        .pipe(gulp.dest(dist + '/assets/js/'));
 });
 
 // Markup
 gulp.task('markup', function() {
     gulp.src(src_php)
         .pipe(replace( /{PKG_VERSION}/g, '\'' + pkg.version + '\'' ))
-        .pipe(gulp.dest(dest));
+        .pipe(gulp.dest(dest))
+        .pipe(gulp.dest(dist));
 });
 
 // Bowler
