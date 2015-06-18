@@ -1,0 +1,20 @@
+{
+  "name": "tmsrvd-shortcodes",
+  "version": "1.0.0",
+  "authors": [
+    "zarcode <denciczarko@gmail.com>"
+  ],
+  "description": "WordPress Bootstrap 3 Shortcodes Plugin",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "http://themeserved.com/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
