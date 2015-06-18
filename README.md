@@ -13,7 +13,7 @@ The plugin is tested to work with WordPress 4.0 and higher.
 * Tabs
 
 ## Usage
-Repo contains gulp cofiguration file, so after runing gulp command you'll get distribution folder on this path:
+Repo contains gulp cofiguration file, so after running gulp command you'll get distribution folder on this path:
   
   /ts-framework/dist/wp-content/plugins/tmsrvd-shortcodes
   
