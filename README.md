@@ -1,4 +1,4 @@
-# tmsrvd-shortcode
+# ThemeServed Shortcodes Plugin
 Plugin from themeserved.com.
 WordPress shortcode plugin, based on Bootstrap's best features. Lightened, to be fast. No bloated Bootstrap stuff, only necessary things. Best used with our themes, but you can freely fork it, chop it, use it, but do not abuse it. Enjoy :) 
 
